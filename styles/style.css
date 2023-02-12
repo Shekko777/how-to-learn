@@ -1,6 +1,8 @@
 /* Общие стили */
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .logo{
@@ -92,7 +94,48 @@
   right: 0;
 }
 
-/*  */
+/* Секцкия description */
+.description{
+  display: flex;
+  margin-top: 100px;
+}
+
+.two-columns{
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief{
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.two-columns__main-text{
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph{
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.two-columns__paragraph:nth-of-type(2){
+  margin: 30px 0;
+}
+
+.two-columns__span-accent{
+  font-weight: 600;
+}
+
+/* Таблицы ... (доработка) */
 
 .table__cell_theme_dark {
   width: 200px;
