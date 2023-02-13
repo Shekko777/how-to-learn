@@ -1,5 +1,5 @@
 /* Общие стили */
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -40,6 +40,11 @@
   color: #2f80ed;
 }
 
+.position-relative_z-index_1 {
+  position: relative;
+  z-index: 1;
+}
+
 
 /* Стили для страници */
 .body {
@@ -70,6 +75,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
+  z-index: 2;
 }
 
 .header__title {
@@ -87,6 +93,7 @@
   width: 388px;
   line-height: 25px;
   font-size: 18px;
+  z-index: 2;
 }
 
 .header__main-illustration {
@@ -244,7 +251,7 @@
   flex-basis: 711px;
 }
 
-.logo_place_footer{
+.logo_place_footer {
   display: block;
   width: 228px;
   height: 32px;
@@ -266,11 +273,11 @@
   margin-bottom: 16px;
 }
 
-.footer__column-link{
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
 }
 
-.footer__social-icon{
+.footer__social-icon {
   margin-right: 10px;
 }
