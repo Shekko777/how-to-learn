@@ -42,17 +42,14 @@
 }
 
 /* Стили для страници */
-.body {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 /* header */
@@ -267,6 +264,7 @@
 }
 
 .footer__column-link {
+  display: flex;
   line-height: 30px;
   font-size: 18px;
 }
