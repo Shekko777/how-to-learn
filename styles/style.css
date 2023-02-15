@@ -5,6 +5,15 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
 .logo {
   width: 228px;
   height: 32px;
