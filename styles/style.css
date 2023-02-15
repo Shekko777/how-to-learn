@@ -22,10 +22,6 @@
   background-color: #2f80ed;
 }
 
-.back-black {
-  background-color: #000000;
-}
-
 .fw-600 {
   font-weight: 600;
 }
@@ -45,10 +41,9 @@
   z-index: 1;
 }
 
-
 /* Стили для страници */
 .body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -176,7 +171,7 @@
   position: relative;
   min-height: 890px;
   text-align: center;
-  background-image: url('../images/feynman.png');
+  background-image: url("../images/feynman.png");
   background-repeat: no-repeat;
   background-position: left bottom;
 }
@@ -241,7 +236,6 @@
 
 .footer__column {
   min-height: 350px;
-
 }
 
 .footer__column_content_copyright {
@@ -266,7 +260,6 @@
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
-
 }
 
 .footer__column-links {
