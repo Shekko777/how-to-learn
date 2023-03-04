@@ -1,0 +1,9 @@
+.buy-link {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 30px;
+  color: #2f80ed;
+}

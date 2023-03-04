@@ -1,0 +1,66 @@
+@import url(../vender/normalize.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/logo/_place/logo_place_header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/header/__square-pic/header__square-pic.css);
+
+
+
+
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  .logo {
+    width: 228px;
+    height: 32px;
+  }
+  
+  .section-title {
+    max-width: 60%;
+    margin: 0 auto 20px;
+    line-height: 1.15;
+    font-size: 60px;
+    position: relative;
+    z-index: 1;
+    font-weight: 600;
+  }
+  
+  .section-subtitle {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    max-width: 60%;
+  }
+  
+  .link {
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+  
+  .link:hover {
+    opacity: 0.7;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotation {
+    animation: rotation 20s linear infinite ;
+  }

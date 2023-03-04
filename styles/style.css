@@ -1,129 +1,8 @@
 /* Общие стили */
-.logo {
-  width: 228px;
-  height: 32px;
-}
-
-.section-title {
-  max-width: 60%;
-  margin: 0 auto 20px;
-  line-height: 1.15;
-  font-size: 60px;
-  position: relative;
-  z-index: 1;
-  font-weight: 600;
-}
-
-.section-subtitle {
-  margin: 0 auto;
-  position: relative;
-  z-index: 1;
-  max-width: 60%;
-}
-
-.link {
-  text-decoration: none;
-  transition: opacity 0.2s;
-}
-
-.link:hover {
-  opacity: 0.7;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.rotation {
-  animation: rotation 20s linear infinite ;
-}
 
 /* Стили для страници */
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-/* header */
-.header {
-  position: relative;
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #f2f2f2;
-  overflow: hidden;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 2;
-}
-
-.header__title {
-  margin-left: 64px;
-  max-width: 730px;
-  z-index: 2;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: 600;
-}
-
-.header__subtitle {
-  position: absolute;
-  bottom: 30px;
-  left: 64px;
-  max-width: 388px;
-  margin: 0;
-  line-height: 25px;
-  font-size: 18px;
-  z-index: 2;
-}
-
-.header__link {
-  color: #2f80ed;
-}
-
-.header__main-illustration {
-  position: absolute;
-  max-width: 765px;
-  height: 608px;
-  object-fit: cover;
-  object-position: center;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-}
-
-.header__square-pic {
-  position: absolute;
-  height: 568px;
-  width: 568px;
-  top: 64px;
-  right: 0;
-  background-color: #2f80ed;
-}
 
 /* Секцкия description */
-.description {
-  display: flex;
-  padding-top: 100px;
-}
 
 .two-columns {
   max-width: 80%;
@@ -162,164 +41,42 @@
 }
 
 /* Секция techniques */
-.techniques {
-  text-align: center;
-  padding-top: 100px;
-  max-width: 80%;
-  margin: 0 auto;
-}
-
-  .cards {
-    max-width: 920px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px 100px;
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    margin-top: 60px;
-  }
-
-  .cards__item {
-    max-width: 240px;
-  }
-
-  .cards__image {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    margin-bottom: 43px;
-  }
-
-  .cards__title {
-    margin: 0 0 16px 0;
-    line-height: 1.15;
-    font-size: 24px;
-    font-weight: 600;
-  }
-
-  .cards__description {
-    margin: 0;
-    line-height: 23px;
-    font-size: 18px;
-
-  }
-
-/* video */
-.video {
-  margin: 0 auto;
-  text-align: center;
-  padding: 100px 0 0 0;
-}
-
-.video__item {
-  line-height: 0;
-}
-
-.video__iframes {
-  position: relative;
-  top: 50px;
-  padding: 0;
-  margin: 0 auto;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  max-width: 1050px;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.video__iframe {
-  width: 515px;
-  height: 316px;
-  display: inline-block;
-}
-
-/* Секция oakley */
-.oakley {
-  background-color: #f2f2f2;
-  padding-top: 160px;
-}
-
-
-/* Секция digits  */
-.digits {
-  text-align: center;
-  padding: 100px 0;
-}
-
-.table {
-  max-width: 1100px;
-  padding: 0;
-  margin: 0 auto;
+.cards {
+  max-width: 920px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  text-align: start;
+  gap: 60px 100px;
   list-style: none;
-}
-
-.table__cell {
-  width: 250px;
+  padding: 0;
+  margin: 0 auto;
   margin-top: 60px;
 }
 
-.table__heading {
+.cards__item {
+  max-width: 240px;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-bottom: 43px;
+}
+
+.cards__title {
+  margin: 0 0 16px 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin: 0;
 }
 
-.table__text {
-  margin: 20px 0 0;
-  line-height: 1.2;
+.cards__description {
+  margin: 0;
+  line-height: 23px;
   font-size: 18px;
 }
 
-/* Секция khan*/
-.khan {
-  background-color: #f2f2f2;
-  padding: 105px 0 0 0;
-}
-
-.khan__container {
-  max-width: 80%;
-  margin: 0 auto;
-}
-
-.khan__author {
-  margin: 0;
-  padding: 0;
-  line-height: 42px;
-  font-size: 30px;
-}
-
-.khan__title {
-  margin: 0 0 50px 0;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-}
-
-.khan__quote {
-  margin: 0 0 36px 0;
-  padding: 0;
-  max-width: 790px;
-}
-
-.khan__quote-author {
-  font-weight: 600;
-  margin: 0 0 10px 0;
-  line-height: 1.15;
-
-}
-
-.khan__quote-author-subline {
-  margin: 0 0 68px 0;
-  line-height: 1.15;
-}
+/* book */
 
 .book-container {
   display: flex;
