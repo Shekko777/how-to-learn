@@ -1,13 +1,15 @@
 @font-face {
-    font-family: 'HelveticeLight';
-    font-weight: 400;
-    src: local('HelveticaNeueCyr-Light'), url('../fonts/HelveticaNeueCyr-Light.woff2') format('woff2'),
-    url('../fonts/HelveticaNeueCyr-Light.woff') format('woff');
+  font-family: "HelveticaNeueCyr";
+  font-weight: normal;
+  src: local("HelveticaNeueCyr-Light"),
+    url("../fonts/HelveticaNeueCyr-Light.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Light.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'HelveticaBold';
-    font-weight: 600;
-    src: local('Helvetica-Bold'), url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'),
-    url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff');
+  font-family: "HelveticaNeueCyr";
+  font-weight: 600;
+  src: local("Helvetica-Bold"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff");
 }
