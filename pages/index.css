@@ -1,4 +1,5 @@
 @import url(../vender/normalize.css);
+@import url(../vender/fonts.css);
 
 /* ROOT */
 @import url(../blocks/root/root.css);
